@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&family=Oswald&display=swap');
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+.contain-warp{
+    /* display: flex; */
+    height: 100%;
+    background-color: rgb(209, 209, 209); 
+}
+nav{
+    width: 200px;
+    height: 657px;
+    background-color: rgb(255, 255, 255); 
+    color: rgb(44, 44, 44);
+    position: fixed;
+}
+.title-nav{
+    border-bottom:1px solid rgb(44, 44, 44);
+    height: 50px;
+    padding-top:30px;
+}
+.main-warp{
+    display: flex;
+    margin-top: 10px;
+}
+h1{
+   text-align: center; 
+}
+ul{ 
+    list-style: none;    
+    padding-top: 10px;
+}
+li{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+li:hover{
+    background-color: rgb(56, 55, 55);
+    width: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+
+
+header{
+    width: 1343px;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    position: fixed;
+}
+
+.title-had{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.title-had img{
+    /* margin-left: 30px; */
+    padding-top: 15px;
+}
+
+.contain-maian{
+    margin-left: 10px;
+}
+main{
+    width: 1200px;
+    background-color: rgb(209, 209, 209); 
+    height: 497px;
+}
+footer{
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+}
