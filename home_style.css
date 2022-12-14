@@ -7,7 +7,6 @@ h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
 }
-
 .contain-warp{
     /* display: flex; */
     height: 100%;
@@ -21,7 +20,7 @@ nav{
     position: fixed;
 }
 .title-nav{
-    border-bottom:1px solid rgb(44, 44, 44);
+    /* border-bottom:1px solid rgb(44, 44, 44); */
     height: 50px;
     padding-top:30px;
 }
@@ -34,7 +33,7 @@ h1{
 }
 ul{ 
     list-style: none;    
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 li{
     padding-top: 10px;
@@ -42,34 +41,37 @@ li{
     text-align: center;
 }
 li:hover{
-    background-color: rgb(56, 55, 55);
+    background-color: rgb(199, 242, 243);
     width: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 3px;
+    
 }
 a{
     text-decoration: none;
-    color: white;
+    color: #0f1a44;
     display: block;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Noto Sans Mende Kikakui', sans-serif;
 }
 a:hover{
     text-decoration: none;
-    color: white;
+    color: #7289da;
     display: block;
-    padding-bottom: 10px;
-    padding-right: 5px;
+    
+    /* padding-bottom: 10px; */
+    /* padding-right: 5px; */
 }
-
-
-
 header{
-    width: 1343px;
+    width: 1443px;
     background-color: rgb(255, 255, 255);
     height: 80px;
     position: fixed;
+    z-index: 3;
+    box-shadow: 1px 1px 1px rgb(225, 227, 228);
 }
-
 .title-had{
     margin-left: 30px;
     margin-top: 50px;
@@ -78,17 +80,16 @@ header{
     /* margin-left: 30px; */
     padding-top: 15px;
 }
-
 .contain-maian{
     margin-left: 10px;
 }
 main{
-    width: 1200px;
-    background-color: rgb(209, 209, 209); 
-    height: 497px;
+    width: 1365px;
+    background-color: rgb(235, 235, 235); 
+    height: 550px;
 }
 footer{
-    width: 1200px;
+    width: 1365px;
     background-color: rgb(255, 255, 255);
     height: 80px;
 }
