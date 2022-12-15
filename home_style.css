@@ -33,39 +33,44 @@ h1{
 }
 ul{ 
     list-style: none;    
-    /* padding-top: 10px; */
+    padding-top: 10px;
 }
 li{
-    padding-top: 10px;
-    margin-bottom: 10px;
+    /* padding-top: 10px; */
+    /* margin-bottom: 10px; */
     text-align: center;
 }
 li:hover{
-    background-color: rgb(199, 242, 243);
+    background-color: rgb(229, 241, 250);
     width: auto;
     margin-left: 8px;
     margin-right: 8px;
-    border-radius: 3px;
+    border-radius: 3px; 
     
 }
 a{
     text-decoration: none;
     color: #0f1a44;
-    display: block;
-    padding-bottom: 10px;
+    display: inline-block;
+    width: auto;
+    /* margin-top: 10px; */
+    height: auto;
     font-size: 16px;
     font-family: 'Noto Sans Mende Kikakui', sans-serif;
 }
 a:hover{
+    background-color: rgb(229, 241, 250);
     text-decoration: none;
     color: #7289da;
-    display: block;
-    
+    display: inline-block;
+    width: auto;
+    /* height: ; */
+    /* margin-top: 10px; */
     /* padding-bottom: 10px; */
     /* padding-right: 5px; */
 }
 header{
-    width: 1443px;
+    width: 1360px;
     background-color: rgb(255, 255, 255);
     height: 80px;
     position: fixed;
@@ -84,12 +89,12 @@ header{
     margin-left: 10px;
 }
 main{
-    width: 1365px;
+    width: 1360px;
     background-color: rgb(235, 235, 235); 
     height: 550px;
 }
 footer{
-    width: 1365px;
+    width: 1360px;
     background-color: rgb(255, 255, 255);
     height: 80px;
 }
