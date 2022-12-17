@@ -10,10 +10,10 @@ h1, h2, h3, h4, h5, h6, p, div {
 .contain-warp{
     /* display: flex; */
     height: 100%;
-    background-color: rgb(209, 209, 209); 
+    background-color: black; 
 }
 nav{
-    width: 200px;
+    width: 260px;
     height: 657px;
     background-color: rgb(255, 255, 255); 
     color: rgb(44, 44, 44);
@@ -26,7 +26,7 @@ nav{
 }
 .main-warp{
     display: flex;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
 }
 h1{
    text-align: center; 
@@ -36,49 +36,43 @@ ul{
     padding-top: 10px;
 }
 li{
-    /* padding-top: 10px; */
-    /* margin-bottom: 10px; */
-    text-align: center;
+    /*text-align: center;*/
+    /*text-align: left;*/
+    /*margin-top: 10px;*/
+    padding-top: 10px;
 }
 li:hover{
     background-color: rgb(229, 241, 250);
-    width: auto;
-    margin-left: 8px;
-    margin-right: 8px;
     border-radius: 3px; 
     
 }
 a{
     text-decoration: none;
     color: #0f1a44;
-    display: inline-block;
-    width: auto;
-    /* margin-top: 10px; */
-    height: auto;
+    display: block;
     font-size: 16px;
     font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    /*padding-left: 40px;*/
+
 }
 a:hover{
     background-color: rgb(229, 241, 250);
     text-decoration: none;
     color: #7289da;
-    display: inline-block;
+    display: block;
     width: auto;
-    /* height: ; */
-    /* margin-top: 10px; */
-    /* padding-bottom: 10px; */
-    /* padding-right: 5px; */
+    /*padding-left: 40px;*/
 }
 header{
     width: 1360px;
     background-color: rgb(255, 255, 255);
-    height: 80px;
+    height: 60px;
     position: fixed;
     z-index: 3;
-    box-shadow: 1px 1px 1px rgb(225, 227, 228);
+    box-shadow: 1px 1px 10px rgb(225, 227, 228);
 }
 .title-had{
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 50px;
 }
 .title-had img{
@@ -96,5 +90,5 @@ main{
 footer{
     width: 1360px;
     background-color: rgb(255, 255, 255);
-    height: 80px;
+    height: 75px;
 }
