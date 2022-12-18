@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&family=Oswald&family=Roboto:wght@500&display=swap');
+
 
 html, body,
 ul, ol, li,
@@ -8,61 +8,69 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 .contain-warp{
-    /* display: flex; */
     height: 100%;
     background-color: black; 
 }
 nav{
-    width: 260px;
+    width: 290px;
     height: 657px;
     background-color: rgb(255, 255, 255); 
     color: rgb(44, 44, 44);
     position: fixed;
 }
 .title-nav{
-    /* border-bottom:1px solid rgb(44, 44, 44); */
     height: 50px;
-    padding-top:30px;
+    padding-top:25px;
 }
 .main-warp{
     display: flex;
-    /*margin-top: 10px;*/
 }
 h1{
    text-align: center; 
 }
 ul{ 
     list-style: none;    
-    padding-top: 10px;
 }
 li{
-    /*text-align: center;*/
-    /*text-align: left;*/
-    /*margin-top: 10px;*/
-    padding-top: 10px;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 li:hover{
     background-color: rgb(229, 241, 250);
-    border-radius: 3px; 
+    border-radius: 100px; 
     
 }
 a{
     text-decoration: none;
-    color: #0f1a44;
+    color: #121c44;
     display: block;
-    font-size: 16px;
-    font-family: 'Noto Sans Mende Kikakui', sans-serif;
-    /*padding-left: 40px;*/
-
+    font-size: 15.5px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 9px;
+    height: 30px;
+    letter-spacing: 0.5px;
+    padding-left: 5px;    
 }
 a:hover{
-    background-color: rgb(229, 241, 250);
+    background-color:rgb(247, 249, 255);
     text-decoration: none;
-    color: #7289da;
+    color:  #677fd6;
     display: block;
     width: auto;
-    /*padding-left: 40px;*/
+    
 }
+
+.color-blue{
+    color: #677fd6;
+}  
+.select{
+    display: block;
+    width: auto;
+    background-color:rgb(247, 249, 255);
+    text-decoration: none;
+}
+
 header{
     width: 1360px;
     background-color: rgb(255, 255, 255);
@@ -70,22 +78,103 @@ header{
     position: fixed;
     z-index: 3;
     box-shadow: 1px 1px 10px rgb(225, 227, 228);
+    display: flex;
 }
 .title-had{
     margin-left: 10px;
-    margin-top: 50px;
 }
+
+.input-warp{
+    margin-left: 130px;
+    padding-top: 12px;
+    display: flex;
+    
+}
+input[type=text]{
+    height: 30px;
+    width:300px;
+    /* color: rgb(199, 194, 194);; */
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    border: 1px solid rgb(199, 194, 194); 
+    padding-left: 10px;
+    border-radius: 2px;
+    /* border-width: 1px 0 1px 1px; */
+}
+input[type=text]:hover{
+    box-shadow:4px 6px 4px rgb(247, 249, 255);
+}
+input[type=text]:focus{
+    border: 1px solid rgb(199, 194, 194);
+    outline: none;
+    border:1px solid rgb(211, 222, 255);
+    /* border-width: 1px 0 1px 1px; */
+
+}
+/* input[type=button]{
+    background-image:url("img/search.png") ;
+    width: 30px;
+    height: 34px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+} */
+
+
+/* .icon-cari{
+    padding: 0;
+    border-width: 1px 1px 1px 0;
+    border-color: rgb(199, 194, 194);
+    border-style: solid;
+    padding-bottom: 2px;
+    background-color:#677fd6 ;
+} */
+
+.profile-warp{
+    margin-left: 500px;
+    display: flex;
+    
+}
+
+.profile-warp,img{
+    padding-top: 8px;
+}
+
+.profile-warp,p{
+    padding-left: 12px;
+    padding-top: 11px;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    color: #677fd6;
+}
+
 .title-had img{
-    /* margin-left: 30px; */
     padding-top: 15px;
 }
-.contain-maian{
-    margin-left: 10px;
-}
+
 main{
-    width: 1360px;
-    background-color: rgb(235, 235, 235); 
+    width: 1050px;
+    background-color:rgb(247, 249, 255);
     height: 550px;
+    padding: 65px 0 0 300px;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    margin: 0;
+}
+.title-main-warp{
+    padding-left: 10px;
+    /* padding-top:7px */
+}
+#title-main{
+    text-align: left;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    color: #677fd6;
+    letter-spacing: 0.5px;
+    font-size: 23px;
+}
+#title-commnt{
+    padding: 0 0 0 13px;
+    font-size: 14px;
+    color: rgb(171, 180, 218);
+}
+.flow-title{
+    color: #677fd6;
 }
 footer{
     width: 1360px;
